@@ -43,7 +43,14 @@ const AddProduct: React.FC = () => {
             <TextField
                 autoComplete="off"
                 label="Brand"
-                variant="outlined"
+                variant="filled"
+                color="primary"
+                sx={{
+                    "& .MuiInputLabel-filled": {
+                        color: "#777"
+                    }
+                }
+                }
                 name="brand"
                 value={product.brand}
                 onChange={changeHandler}
@@ -51,7 +58,14 @@ const AddProduct: React.FC = () => {
             <TextField
                 autoComplete="off"
                 label="Title"
-                variant="outlined"
+                variant="filled"
+                color="primary"
+                sx={{
+                    "& .MuiInputLabel-filled": {
+                        color: "#777"
+                    }
+                }
+                }
                 name="title"
                 value={product.title}
                 onChange={changeHandler}
