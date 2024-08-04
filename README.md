@@ -1,5 +1,7 @@
-This project has React Typescript front end and Asp.NET Core web api backend which communicates with the frontend using HTTP Request. The backend uses an MS SQL Server database through Entity Framework Core ORM.
+# Pet Store
+
 To start the project:
+
 Backend:
 -> cd backend
 -> dotnet run
@@ -7,3 +9,38 @@ Backend:
 Frontend:
 -> npm i
 -> npm start
+
+
+## Solution Technologies
+
+-  Asp.Net Core 
+-  React
+-  TypeScript
+-  MS SQL SERVER
+-  Entity Framework Core
+
+
+### On Backend project
+
+-  Entities
+-  Dtos
+-  Context
+-  ORM
+-  Http Methods
+-  Swagger
+
+### On Frontend project
+
+-  Sending state while redirecting user
+-  Nested Routing
+-  useState
+-  useEffect
+-  Sweet Alert on Create, Edit and Delete
+-  Confirmation on Delete
+-  Elegant, Beatifull and fully Responsive Navbar
+-  TypeScript Interface
+-  TypeScript Partial
+-  Axios
+-  SASS
+-  Mixin
+-  Moment
