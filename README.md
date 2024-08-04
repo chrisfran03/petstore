@@ -7,6 +7,7 @@ Backend:
 -> dotnet run
 
 Frontend:
+-> cd frontend
 -> npm i
 -> npm start
 
