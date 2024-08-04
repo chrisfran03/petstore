@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3655341f-dfeb-49bf-b4fb-819562da592c/resourceGroups/PetStoreResourceGroup/providers/Microsoft.Web/sites/petstoreapi",
+    "appService.deploySubpath": "backend"
+}
